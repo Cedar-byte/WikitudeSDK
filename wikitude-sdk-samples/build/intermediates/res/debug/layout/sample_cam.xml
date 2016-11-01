@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<!-- 展示AR标签的View -->
+	<com.wikitude.architect.ArchitectView
+		android:id="@+id/architectView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="你猜"
+		android:textColor="@android:color/holo_red_light"
+		android:textSize="20sp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="20dp"/>
+</RelativeLayout><!-- From: file:/E:/WikitudeSDK_Android_5-2-0_2016-07-11_16-52-11/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/layout/sample_cam.xml -->

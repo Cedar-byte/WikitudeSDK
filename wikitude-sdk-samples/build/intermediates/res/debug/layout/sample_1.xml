@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:architect="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    <!-- <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/icon_architect"/>-->
+
+	<!-- 展示AR标签的View -->
+	<com.wikitude.architect.ArchitectView
+		  android:id="@+id/architectView"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent">
+		 </com.wikitude.architect.ArchitectView>
+
+</LinearLayout><!-- From: file:/E:/WikitudeSDK_Android_5-2-0_2016-07-11_16-52-11/Examples/SDKExamples/wikitude-sdk-samples/src/main/res/layout/sample_1.xml -->
